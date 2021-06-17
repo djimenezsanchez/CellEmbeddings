@@ -19,7 +19,13 @@ New machine learning models designed to capture the histopathology of tissues sh
 To replicate the paper's experiments on Tissue Cytometry data, first download the images following the <a href="http://doi.org/10.5281/zenodo.4965746">link</a>
 We suggest downloading the complete folder and maintaining the original folder structure to prevent image loading errors.
 
+### Installation
+This package is compatible with Windows. 
+1. Install conda (https://www.anaconda.com/products/individual)
+2. Install tensorflow and create a conda environment using the following command: `conda create --name tf_gpu tensorflow-gpu==1.15 networkx==1.11 joblib`
+
 ### Usage
+Execute main.m 
 
 ### Cite
 If you make use of this code in your own work, please cite our paper:
