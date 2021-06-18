@@ -1,0 +1,1 @@
+conda activate tf_gpu & python -m graphsage.unsupervised_train --train_prefix Graph_22500/ --model graphsage_mean --learning_rate 0.01 --model_size small --context_area 22500 --max_degree 60 --samples_1 60 --samples_2 30 --samples_3 30 --samples_4 30 --epochs 20 --neg_sample_size 30 --hops 2 --batch_size 1500 --dim_1 100 --dim_2 100 & pause
