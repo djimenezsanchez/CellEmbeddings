@@ -20,7 +20,7 @@ New machine learning models designed to capture the histopathology of tissues sh
 ### Data download
 
 To replicate the paper's experiments on lung cancer multiplexed data, first download the images following the <a href="http://doi.org/10.5281/zenodo.4965746">link</a>.
-Then, add the images to the folder 'Images/Original/'. As a working example, there are two images available in this directory. 
+Then, add the images to the folder 'Images/Original/'.
 
 ### Installation
 This package is compatible with Windows. You'll need a cuda-enabled GPU in your computer system to run CellEmbeddings, visit this <a href="https://medium.com/analytics-vidhya/install-tensorflow-gpu-cuda-in-windows-10-with-easy-to-follow-instructions-614d79782d26">tutorial</a>. You can check that your cuda is installed using the `nvidia-smi` command. Then, follow the instructions:
